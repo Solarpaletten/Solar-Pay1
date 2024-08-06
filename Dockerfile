@@ -7,34 +7,28 @@ WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
 
-# Use the official .NET 8 SDK image as a base environment
+# Use the official .NET 8 SDK image as a build environment
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
+WORKDIR /SRC
 
-COPY ["solarpay_core/solarpay_core.csproj","solarpay_core/"]
-COPY ["DataAccess/DataAccess.csproj","DataAccess/"]
-COPY ["Business/Business.csproj","Business/"]
-COPY ["Data/Data.csproj","Data/"]
+COPY ["solarpay_core/solarpay_core.csproj", "solarpay_core/"]
+COPY ["DataAccess/DataAccess.csproj", "DataAccess/"]
+COPY ["Business/Business.csproj", "Business/"]
+COPY ["Data/Data.csproj", "Data/"]
 
 RUN mkdir /keys
-
 RUN dotnet restore "solarpay_core/solarpay_core.csproj"
 
 COPY . .
-
 WORKDIR "/src/solarpay_core"
 
-RUN dotnet build "solarpay_core.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "solarpay_core.csproj" -c Release -o /app/build
+RUN dotnet publish "solarpay_core.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-FROM build As publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "solarpay_core.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-
-FROM base As final
+FROM base AS final
 WORKDIR /app
+COPY --from=build /app/publish .
 
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet","solarpay_core.dll"]
+ENTRYPOINT ["dotnet", "solarpay_core.dll"]
