@@ -1,0 +1,79 @@
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\bin\Debug\net8.0\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\bin\Debug\net8.0\Data.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\bin\Debug\net8.0\Data.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\bin\Debug\net8.0\Data.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Development\Freelancing\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Development\Freelancing\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\RFIDPortals\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\RFIDPortals\DataAccess\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\RFIDPortals\DataAccess\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\RFIDPortals\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Development\Freelancing\SolarPay\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Development\Freelancing\SolarPay\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\SolarPay\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\SolarPay\DataAccess\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\DataAccess\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\SolarPay\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

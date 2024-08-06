@@ -1,0 +1,74 @@
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.sourcelink.json
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net8.0\Data.deps.json
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net8.0\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net8.0\Data.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\bin\Debug\net8.0\Data.deps.json
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\bin\Debug\net8.0\Data.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\bin\Debug\net8.0\Data.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.sourcelink.json
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\Data\obj\Debug\net8.0\ref\Data.dll
+D:\Development\Freelancing\RFIDPortals\Data\bin\Debug\net8.0\Data.deps.json
+D:\Development\Freelancing\RFIDPortals\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+D:\Development\Freelancing\RFIDPortals\Data\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\RFIDPortals\Data\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.sourcelink.json
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.dll
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\refint\Data.dll
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+D:\Development\Freelancing\RFIDPortals\Data\obj\Debug\net8.0\ref\Data.dll
+D:\Development\Freelancing\SolarPay\Data\bin\Debug\net8.0\Data.deps.json
+D:\Development\Freelancing\SolarPay\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+D:\Development\Freelancing\SolarPay\Data\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\Data\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\refint\Data.dll
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+D:\Development\Freelancing\SolarPay\Data\obj\Debug\net8.0\ref\Data.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\bin\Debug\net8.0\Data.deps.json
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.sourcelink.json
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\refint\Data.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\Data\obj\Debug\net8.0\ref\Data.dll

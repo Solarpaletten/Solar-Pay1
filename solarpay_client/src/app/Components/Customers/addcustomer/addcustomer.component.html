@@ -1,0 +1,636 @@
+<div class="container-fluid">
+
+    <div class="block-header py-lg-4 py-3">
+      <div class="row g-3">
+        <div class="col-md-6 col-sm-12">
+          <h2 class="m-0 fs-5"><a href="javascript:void(0);" class="btn btn-sm btn-link ps-0 btn-toggle-fullwidth"><i
+                class="fa fa-arrow-left"></i></a> Add Customer</h2>
+          <ul class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Customers</li>
+            <li class="breadcrumb-item active">Add Customer</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 text-md-end">
+          <div class="d-inline-flex text-start">
+            <div class="me-2">
+              <h6 class="mb-0"><i class="fa fa-user"></i> 1,784</h6>
+              <small>Visitors</small>
+            </div>
+            <span id="bh_visitors"></span>
+          </div>
+          <div class="d-inline-flex text-start ms-lg-3 me-lg-3 ms-1 me-1">
+            <div class="me-2">
+              <h6 class="mb-0"><i class="fa fa-globe"></i> 325</h6>
+              <small>Visits</small>
+            </div>
+            <span id="bh_visits"></span>
+          </div>
+          <div class="d-inline-flex text-start">
+            <div class="me-2">
+              <h6 class="mb-0"><i class="fa fa-comments"></i> 13</h6>
+              <small>Chats</small>
+            </div>
+            <span id="bh_chats"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h6 class="card-title">Customer Details</h6>
+            </div>
+            <div class="card-body">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-home"></i> Customer Information</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-user"></i> Addresses & branches</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-vcard"></i> Bank Accounts</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#invoice" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-file"></i> Invoice issued</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#crm" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-bookmark"></i> CRM</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#request" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-forward"></i> Requests</a>
+                </li>
+            </ul>
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="col-lg-12">
+                    <form [formGroup]="customerForm" (ngSubmit)="OnSubmit()">
+                        <div class="chat_app d-flex">
+                            <div class="chat">
+                                <!-- <div class="chat-header d-flex justify-content-between align-items-center p-3 border-bottom">
+                                    <div class="left d-flex">
+                                        <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <img class="avatar rounded" src="../dist/assets/images/xs/avatar2.jpg" alt="avatar" />
+                                        </button>
+                                        <div class="chat-about ps-2">
+                                            <h6 class="mb-0">Aiden Chavez</h6>
+                                            <small class="text-muted">Last seen: 2 hours ago</small>
+                                        </div>
+                                    </div>
+                                    <div class="right d-md-block d-none text-end">
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-secondary"><i class="fa fa-camera"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-secondary"><i class="fa fa-video-camera"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-secondary"><i class="fa fa-cog"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-sm btn-outline-secondary"><i class="fa fa-question"></i></a>
+                                    </div>
+                                </div> -->
+                                <div class="chat-history p-3">
+                                    <div class="row g-3 clearfix">
+                                      <div class="col-md-6 col-sm-12">
+                                        <label class="form-label">Title:</label>
+                                        <input type="text" formControlName="title" class="form-control" placeholder="Title *" [ngClass]="{'is-invalid': title.invalid && title.touched}">
+                                        <p *ngIf="title?.dirty && title.touched && customerForm?.hasError('required','title')" class="text-danger">Please enter title.</p>
+                                      </div>
+                                      <div class="col-md-6 col-sm-12">
+                                        <label class="form-label">Abbreviation:</label>
+                                        <input type="text" class="form-control" formControlName="abbreviation" placeholder="Abbreviation" [ngClass]="{'is-invalid': abbreviation.invalid && abbreviation.touched}">
+                                        <p *ngIf="abbreviation?.dirty && abbreviation.touched && customerForm?.hasError('required','abbreviation')" class="text-danger">Please enter abbreviation for title.</p>
+                                      </div>
+                                      <div class="col-md-4 col-sm-12">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="isActive" formControlName="isActive">
+                                          <label class="form-check-label" for="isActive">
+                                             Active?
+                                          </label>
+                                      </div>
+                                      </div>
+                                      <div class="col-md-4 col-sm-12">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="juridical" formControlName="juridical">
+                                          <label class="form-check-label" for="juridical">
+                                             Juridical?
+                                          </label>
+                                      </div>
+                                      </div>
+                                      <div class="col-md-4 col-sm-12">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="debt" formControlName="debt">
+                                          <label class="form-check-label" for="debt">
+                                             Send an automate debt reminder?
+                                          </label>
+                                      </div>
+                                      </div>
+                                      <div class="col-md-4 col-sm-12">
+                                        <label class="form-label">A foreigner?</label>
+                                          <select class="form-control" formControlName="foreigner" [ngClass]="{'is-invalid': foreigner.invalid && foreigner.touched}">
+                                             <option value="Lietuva">Lietuva</option>
+                                             <option value="ES narė">ES narė</option>
+                                             <option value="Užsienis">Užsienis</option>
+                                          </select>
+                                          <p *ngIf="foreigner?.dirty && foreigner.touched && customerForm?.hasError('required','foreigner')" class="text-danger">Please select a role.</p>
+                                      </div>
+                                      <!-- <div class="col-md-4 col-sm-12">
+                                        <label class="form-label">Contract Type:</label>
+                                        <select class="form-select" formControlName="contractId" aria-label="Default select example">
+                                          <option disabled selected>Select Contract</option>
+                                          @for (item of contracts; track $index) {
+                                          <option value="{{item.id}}">{{item.name}} - <small>{{item.fullform}}</small></option>
+                                          }
+                                        </select>
+                                        <small>Contract not exist in the above list?<button routerLink="/addcustomer" routerLinkActive="router-link-active"  class="btn btn-sm btn-link">Add new contract</button></small>
+                                        <p *ngIf="contractId?.dirty && contractId.touched && clientForm?.hasError('required','contractId')" class="text-danger">Please select a contract.</p>
+                                      </div> -->
+                                      <div class="col-md-4 col-sm-12">
+                                        <label class="form-label">Code:</label>
+                                        <input type="text" formControlName="code" class="form-control" [ngClass]="{'is-invalid': code.invalid && code.touched}">
+                                        <p *ngIf="code?.dirty && code.touched && customerForm?.hasError('required','code')" class="text-danger">Please select start date.</p>
+                                      </div>
+                              
+                                      <div class="col-md-4 col-sm-12">
+                                        <label class="form-label">Ind. Activity Number:</label>
+                                        <input type="text" formControlName="activityNumber" class="form-control" [ngClass]="{'is-invalid': activityNumber.invalid && activityNumber.touched}">
+                                        <p *ngIf="activityNumber?.dirty && activityNumber.touched && customerForm?.hasError('required','activityNumber')" class="text-danger">Please select start date.</p>
+                                      </div>
+                              
+                                      <div class="col-md-4 col-sm-12">
+                                        <label class="form-label">VAT Code:</label>
+                                        <input type="text" formControlName="vatCode" class="form-control" [ngClass]="{'is-invalid': vatCode.invalid && vatCode.touched}">
+                                        <p *ngIf="vatCode?.dirty && vatCode.touched && customerForm?.hasError('required','vatCode')" class="text-danger">Please select start date.</p>
+                                      </div>
+                              
+                                      <div class="col-md-4 col-sm-12">
+                                        <label class="form-label">Website:</label>
+                                        <input type="text" formControlName="website" class="form-control" [ngClass]="{'is-invalid': website.invalid && website.touched}">
+                                        <p *ngIf="website?.dirty && website.touched && customerForm?.hasError('required','website')" class="text-danger">Please select start date.</p>
+                                      </div>
+
+                                      <div class="col-md-4 col-sm-12">
+                                        <label class="form-label">Tel. no:</label>
+                                        <input type="text" formControlName="tel" class="form-control" [ngClass]="{'is-invalid': tel.invalid && tel.touched}">
+                                        <p *ngIf="tel?.dirty && tel.touched && customerForm?.hasError('required','tel')" class="text-danger">Please select start date.</p>
+                                      </div>
+
+                              
+                                      <!--<div class="col-md-4 col-sm-12">
+                                        <input type="text" class="form-control" placeholder="Confirm Password">
+                                      </div> -->
+                              
+                              
+                                      <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Email Post Office:</label>
+                                        <textarea class="form-control" formControlName="postOffice" [ngClass]="{'is-invalid': postOffice.invalid && postOffice.touched}"></textarea>
+                                        <p *ngIf="postOffice?.dirty && postOffice.touched && customerForm?.hasError('required','postOffice')" class="text-danger">Please enter your postal address.</p>
+                                      </div>
+                                      <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Contact Information:</label>
+                                        <textarea class="form-control" formControlName="contactInfo" [ngClass]="{'is-invalid': contactInfo.invalid && contactInfo.touched}"></textarea>
+                                        <p *ngIf="contactInfo?.dirty && contactInfo.touched && customerForm?.hasError('required','contactInfo')" class="text-danger">Please enter your contact details.</p>
+                                      </div>
+                                      <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Notes:</label>
+                                        <textarea class="form-control" formControlName="notes" [ngClass]="{'is-invalid': notes.invalid && notes.touched}"></textarea>
+                                        <p *ngIf="notes?.dirty && notes.touched && customerForm?.hasError('required','notes')" class="text-danger">Please enter your postal address.</p>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-12 col-sm-12">
+                                    <button [disabled]="customerForm.invalid" class="btn btn-primary">Create</button> &nbsp;
+                                    <button routerLink="/allcustomers" class="btn btn-secondary">Back to list</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="people_list">
+                              <div class="info container">
+                                <p></p>
+                                <h6>Additional Information</h6>
+                                <!-- <p>Please fill all fields carefully.</p> -->
+                            </div>
+                            <hr>
+                            <div class="row container">
+                              <div class="col-md-12 col-sm-12">
+                                  <label class="form-label">Pay through:</label>
+                                  <input type="text" formControlName="payThrough" class="form-control"
+                                      placeholder="" [ngClass]="{'is-invalid': payThrough.invalid && payThrough.touched}">
+                                  <p *ngIf="payThrough?.dirty && payThrough.touched && customerForm?.hasError('required','payThrough')"
+                                      class="text-danger">Please select payment type.</p>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                  <label class="form-label">EORI/Other Code:</label>
+                                  <input type="text" formControlName="eori" class="form-control"
+                                      placeholder="" [ngClass]="{'is-invalid': eori.invalid && eori.touched}">
+                                  <p *ngIf="eori?.dirty && eori.touched && customerForm?.hasError('required','eori')"
+                                      class="text-danger">Please select payment type.</p>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                  <label class="form-label">Fax:</label>
+                                  <input type="text" formControlName="fax" class="form-control"
+                                      placeholder="" [ngClass]="{'is-invalid': fax.invalid && fax.touched}">
+                                  <p *ngIf="fax?.dirty && fax.touched && customerForm?.hasError('required','fax')"
+                                      class="text-danger">Please enter fax number.</p>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                  <label class="form-label">Foreign:</label>
+                                  <input type="text" formControlName="foreign" class="form-control"
+                                      placeholder="" [ngClass]="{'is-invalid': foreign.invalid && foreign.touched}">
+                                  <p *ngIf="foreign?.dirty && foreign.touched && customerForm?.hasError('required','foreign')"
+                                      class="text-danger">Please select payment type.</p>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                  <label class="form-label">Date of birth:</label>
+                                  <input type="date" formControlName="dob" class="form-control"
+                                      placeholder="" [ngClass]="{'is-invalid': dob.invalid && dob.touched}">
+                                  <p *ngIf="dob?.dirty && dob.touched && customerForm?.hasError('required','dob')"
+                                      class="text-danger">Please enter your date of birth.</p>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                  <label class="form-label">VAT rate:</label>
+                                  <input type="number" formControlName="vaTrate" class="form-control"
+                                      placeholder="" [ngClass]="{'is-invalid': vaTrate.invalid && vaTrate.touched}">
+                                  <p *ngIf="vaTrate?.dirty && vaTrate.touched && customerForm?.hasError('required','vaTrate')"
+                                      class="text-danger">Please enter vat rate.</p>
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                  <label class="form-label">Credit Amount:</label>
+                                  <input type="number" formControlName="creditAmount" class="form-control"
+                                      placeholder="" [ngClass]="{'is-invalid': creditAmount.invalid && creditAmount.touched}">
+                                  <p *ngIf="creditAmount?.dirty && creditAmount.touched && customerForm?.hasError('required','creditAmount')"
+                                      class="text-danger">Please enter credit amount.</p>
+                              </div>
+                              </div>
+
+                            <!-- <form [formGroup]="productForm" (ngSubmit)="SaveProduct()">
+                                <div class="row container">
+                                    <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Product Name:</label>
+                                        <input type="text" formControlName="name" class="form-control"
+                                            placeholder="Product Name">
+                                        <p *ngIf="name?.dirty && name.touched && productForm?.hasError('required','name')"
+                                            class="text-danger">Please enter product name.</p>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Quantity: </label>
+                                        <input type="number"  formControlName="quantity" class="form-control" placeholder="">
+                                        <p *ngIf="quantity?.dirty && quantity.touched && productForm?.hasError('required','quantity')"
+                                            class="text-danger">Please enter product quantity.</p>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Reference Link: <small></small></label>
+                                        <input type="text"  formControlName="reference" class="form-control" placeholder="Reference">
+                                        <p *ngIf="reference?.dirty && reference.touched && productForm?.hasError('required','reference')"
+                                            class="text-danger">Please add reference link.</p>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Description: </label>
+                                        <textarea  formControlName="description" class="form-control"></textarea>
+                                        <p *ngIf="description?.dirty && description.touched && productForm?.hasError('required','description')"
+                                            class="text-danger">Please write product description.</p>
+                                    </div>
+
+
+                                    <div class="col-md-12 col-sm-12">
+                                        <label class="form-label">Upload product image:</label>
+                                        <input type="file"  formControlName="doc" (change)="onSelectFile($event)"  class="form-control">
+                                        <small>Please upload product image here. (pdf,jpg)</small>
+                                        <p *ngIf="doc?.dirty && doc.touched && productForm?.hasError('required','doc')"
+                                            class="text-danger">Please select product image.</p>
+                                        <br>
+                                        <button [disabled]="!productForm.valid" class="btn btn-primary">Save Product</button>
+                                    </div>
+
+                                </div>
+                            </form> -->
+                          </div>
+                        </div>
+                        </form>
+                </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="col-lg-12">
+                        <div class="chat_app d-flex">
+                            <div class="chat">
+                              <table id="pro_list" class="table table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Address</th>
+                                        <th>Postal Code</th>
+                                        <th>Employee</th>
+                                        <th>Registration</th>
+                                        <th>Correspondence</th>
+                                        <th>Loading</th>
+                                        <th>Unloading</th>
+                                        <th>DIVID</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                  @for (item of addresses; track $index) {
+                                    <tr>
+                                        <td>
+                                            <h6>{{item.city}} {{item.country}}</h6>
+                                            <span>{{item.location}}</span>
+                                        </td>
+                                        <td>
+                                            22345
+                                        </td>
+                                        <td>
+                                            John Doe
+                                        </td>
+                                        <td><span class="badge bg-success">Yes</span></td>
+                                        <td><span class="badge bg-info">No</span></td>
+                                        <td><span class="badge bg-success">Yes</span></td>
+                                        <td><span class="badge bg-success">Yes</span></td>
+                                        <td><span class="badge bg-success">Yes</span></td>
+                                    </tr>
+                                  }
+                                </tbody>
+                            </table>
+                            </div>
+                            <div class="people_list">
+                              <div class="info container">
+                                <p></p>
+                                <h6>Add new address</h6>
+                                <p>Please fill all fields carefully.</p>
+                            </div>
+                            <hr>
+                            <div class="row container">
+                                <form [formGroup]="addressForm" (ngSubmit)="SaveAddress()">
+                                  <div class="form-group">
+                                    <label for="location">Location</label>
+                                    <input
+                                      id="location"
+                                      type="text"
+                                      class="form-control"
+                                      formControlName="location"
+                                      [ngClass]="{'is-invalid': location.invalid && location.touched}"
+                                    />
+                                    <div *ngIf="location.invalid && location.touched" class="invalid-feedback">
+                                      Location is required.
+                                    </div>
+                                  </div>
+                              
+                                  <div class="form-group">
+                                    <label for="city">City</label>
+                                    <input
+                                      id="city"
+                                      type="text"
+                                      class="form-control"
+                                      formControlName="city"
+                                      [ngClass]="{'is-invalid': city.invalid && city.touched}"
+                                    />
+                                    <div *ngIf="city.invalid && city.touched" class="invalid-feedback">
+                                      City is required.
+                                    </div>
+                                  </div>
+                              
+                                  <div class="form-group">
+                                    <label for="country">Country</label>
+                                    <input
+                                      id="country"
+                                      type="text"
+                                      class="form-control"
+                                      formControlName="country"
+                                      [ngClass]="{'is-invalid': country.invalid && country.touched}"
+                                    />
+                                    <div *ngIf="country.invalid && country.touched" class="invalid-feedback">
+                                      Country is required.
+                                    </div>
+                                  </div>
+                              
+                                  <div class="form-group">
+                                    <label for="postalCode">Postal Code</label>
+                                    <input
+                                      id="postalCode"
+                                      type="text"
+                                      class="form-control"
+                                      formControlName="postalCode"
+                                      [ngClass]="{'is-invalid': postalCode.invalid && postalCode.touched}"
+                                    />
+                                    <div *ngIf="postalCode.invalid && postalCode.touched" class="invalid-feedback">
+                                      Postal Code is required.
+                                    </div>
+                                  </div>
+                              
+                                  <div class="form-group">
+                                    <label for="employee">Employee</label>
+                                    <input
+                                      id="employee"
+                                      type="text"
+                                      class="form-control"
+                                      formControlName="employee"
+                                      [ngClass]="{'is-invalid': employee.invalid && employee.touched}"
+                                    />
+                                    <div *ngIf="employee.invalid && employee.touched" class="invalid-feedback">
+                                      Employee is required.
+                                    </div>
+                                  </div>
+                              
+                                  <div class="form-group form-check">
+                                    <input
+                                      id="registration"
+                                      type="checkbox"
+                                      class="form-check-input"
+                                      formControlName="registration"
+                                    />
+                                    <label for="registration" class="form-check-label">Registration</label>
+                                  </div>
+                              
+                                  <div class="form-group form-check">
+                                    <input
+                                      id="correspondence"
+                                      type="checkbox"
+                                      class="form-check-input"
+                                      formControlName="correspondence"
+                                    />
+                                    <label for="correspondence" class="form-check-label">Correspondence</label>
+                                  </div>
+                              
+                                  <div class="form-group form-check">
+                                    <input
+                                      id="loading"
+                                      type="checkbox"
+                                      class="form-check-input"
+                                      formControlName="loading"
+                                    />
+                                    <label for="loading" class="form-check-label">Loading</label>
+                                  </div>
+                              
+                                  <div class="form-group form-check">
+                                    <input
+                                      id="unloading"
+                                      type="checkbox"
+                                      class="form-check-input"
+                                      formControlName="unloading"
+                                    />
+                                    <label for="unloading" class="form-check-label">Unloading</label>
+                                  </div>
+                              
+                                  <div class="form-group form-check">
+                                    <input
+                                      id="divid"
+                                      type="checkbox"
+                                      class="form-check-input"
+                                      formControlName="divid"
+                                    />
+                                    <label for="divid" class="form-check-label">DIVID</label>
+                                  </div>
+                              
+                                  <button type="submit" class="btn btn-primary" [disabled]="addressForm.invalid">Submit</button>
+                                </form>
+                              </div>
+
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  <div class="col-lg-12">
+                  <div class="chat_app d-flex">
+                    <div class="chat">
+                      <table id="pro_list" class="table table-hover mb-0">
+                        <thead>
+                            <tr>
+                              <th>Acc. No.</th>
+                                <th>Code</th>
+                                <th>SWIFT Code</th>
+                                <th>Main</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          @for (item of banks; track $index) {
+                            <tr>
+                                <td>
+                                    <h6>{{item.accountNo}}</h6>
+                                    <span>{{item.bankName}}</span>
+                                </td>
+                                <td>
+                                    {{item.bankCode}}
+                                </td>
+                                <td>
+                                    {{item.swiftCode}}
+                                </td>
+                                <td><span class="badge bg-success">{{item.isMain?'Yes':'No'}}</span></td>
+                            </tr>
+                          }
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="people_list">
+                      <div class="info container">
+                        <p></p>
+                        <h6>Add new bank account</h6>
+                        <p>Please fill all fields carefully.</p>
+                    </div>
+                    <hr>
+                    <div class="row container">
+                      <form [formGroup]="bankForm" (ngSubmit)="SaveBankInfo()">
+                        <div class="form-group">
+                          <label for="accountNo">Account Number</label>
+                          <input
+                            id="accountNo"
+                            type="text"
+                            class="form-control"
+                            formControlName="accountNo"
+                            [ngClass]="{'is-invalid': accountNo.invalid && accountNo.touched}"
+                          />
+                          <div *ngIf="accountNo.invalid && accountNo.touched" class="invalid-feedback">
+                            Account Number is required.
+                          </div>
+                        </div>
+                    
+                        <div class="form-group">
+                          <label for="bankName">Bank Name</label>
+                          <input
+                            id="bankName"
+                            type="text"
+                            class="form-control"
+                            formControlName="bankName"
+                            [ngClass]="{'is-invalid': bankName.invalid && bankName.touched}"
+                          />
+                          <div *ngIf="bankName.invalid && bankName.touched" class="invalid-feedback">
+                            Bank Name is required.
+                          </div>
+                        </div>
+                    
+                        <div class="form-group">
+                          <label for="bankCode">Bank Code</label>
+                          <input
+                            id="bankCode"
+                            type="text"
+                            class="form-control"
+                            formControlName="bankCode"
+                            [ngClass]="{'is-invalid': bankCode.invalid && bankCode.touched}"
+                          />
+                          <div *ngIf="bankCode.invalid && bankCode.touched" class="invalid-feedback">
+                            Bank Code is required.
+                          </div>
+                        </div>
+                    
+                        <div class="form-group">
+                          <label for="swiftCode">SWIFT Code</label>
+                          <input
+                            id="swiftCode"
+                            type="text"
+                            class="form-control"
+                            formControlName="swiftCode"
+                            [ngClass]="{'is-invalid': swiftCode.invalid && swiftCode.touched}"
+                          />
+                          <div *ngIf="swiftCode.invalid && swiftCode.touched" class="invalid-feedback">
+                            SWIFT Code is required.
+                          </div>
+                        </div>
+                    
+                        <div class="form-group form-check">
+                          <input
+                            id="isMain"
+                            type="checkbox"
+                            class="form-check-input"
+                            formControlName="isMain"
+                          />
+                          <label for="isMain" class="form-check-label">Is this your main bank account?</label>
+                        </div>
+                    
+                        <button class="btn btn-primary" [disabled]="bankForm.invalid">Submit</button>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div class="tab-pane fade" id="invoice" role="tabpanel" aria-labelledby="contact-tab">
+                    <h6>Invoice Issued</h6>
+                    <p>
+                        Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft
+                        beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica
+                        VHS.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="crm" role="tabpanel" aria-labelledby="contact-tab">
+                    <h6>CRM</h6>
+                    <p>
+                        Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft
+                        beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica
+                        VHS.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="request" role="tabpanel" aria-labelledby="contact-tab">
+                    <h6>Requests</h6>
+                    <p>
+                        Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft
+                        beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica
+                        VHS.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+  

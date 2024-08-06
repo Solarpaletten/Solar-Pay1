@@ -1,0 +1,15 @@
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net7.0\Data.deps.json
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net7.0\Data.runtimeconfig.json
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net7.0\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Data\bin\Debug\net7.0\Data.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.csproj.AssemblyReference.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.AssemblyInfoInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.AssemblyInfo.cs
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.sourcelink.json
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\refint\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\Data.genruntimeconfig.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Data\obj\Debug\net7.0\ref\Data.dll

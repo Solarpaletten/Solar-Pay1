@@ -1,0 +1,98 @@
+<div class="container-fluid">
+
+    <div class="block-header py-lg-4 py-3">
+        <div class="row g-3">
+            <div class="col-md-6 col-sm-12">
+                <h2 class="m-0 fs-5"><a href="javascript:void(0);" class="btn btn-sm btn-link ps-0 btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></a> Customers List</h2>
+                <ul class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item">Customer</li>
+                    <li class="breadcrumb-item active">Customers List</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-sm-12 text-md-end">
+                <div class="d-inline-flex text-start">
+                    <div class="me-2">
+                        <h6 class="mb-0"><i class="fa fa-user"></i> 1,784</h6>
+                        <small>Visitors</small>
+                    </div>
+                    <span id="bh_visitors"></span>
+                </div>
+                <div class="d-inline-flex text-start ms-lg-3 me-lg-3 ms-1 me-1">
+                    <div class="me-2">
+                        <h6 class="mb-0"><i class="fa fa-globe"></i> 325</h6>
+                        <small>Visits</small>
+                    </div>
+                    <span id="bh_visits"></span>
+                </div>
+                <div class="d-inline-flex text-start">
+                    <div class="me-2">
+                        <h6 class="mb-0"><i class="fa fa-comments"></i> 13</h6>
+                        <small>Chats</small>
+                    </div>
+                    <span id="bh_chats"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h6 class="card-title">Customers List</h6>
+                    <ul class="header-dropdown">
+                        <li>
+                            <button routerLink="/addcustomer/''" routerLinkActive="router-link-active"  class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#addEmployee">Add New</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <table id="employee_List" class="table table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Title</th>
+                                <th>Foreigner</th>
+                                <th>Code</th>
+                                <th>Activity Number</th>
+                                <th>VAT Code</th>
+                                <th>Website</th>
+                                <th>Tel. No</th>
+                                <th>EORI</th>
+                                <th>DOB</th>
+                                <th>Registration Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (item of customers; track $index) {
+                            <tr>
+                                <td>
+                                    <h6 class="mb-0">{{item.title}}</h6>
+                                    <span>{{item.abbreviation}}</span>
+                                </td>
+                                <td>
+                                   {{item.foreigner}}
+                                </td>
+                                
+                                <td><span>{{item.code}}</span></td>
+                                <td><span>{{item.activityNumber}}</span></td>
+                                <td><span>{{item.vatCode}}</span></td>
+                                <td>{{item.website}}</td>
+                                <td><span>{{item.tel}}</span></td>
+                                <td>{{item.eori}}</td>
+                                <td>{{item.dob | date:'MMMM d, y'}}</td>
+                                <td>{{item.registrationDate| date:'MMMM d, y'}}</td>
+                                <td>
+                                    <a routerLink="/addcustomer/{{item.id}}" class="btn btn-sm btn-outline-secondary"><i class="fa fa-eye"></i></a>
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

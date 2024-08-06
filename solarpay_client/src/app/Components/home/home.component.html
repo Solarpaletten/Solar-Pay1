@@ -1,0 +1,491 @@
+
+<div class="container-fluid">
+
+    <div class="block-header py-lg-4 py-3">
+        <div class="row g-3">
+            <div class="col-md-6 col-sm-12">
+                <h2 class="m-0 fs-5"><a href="javascript:void(0);" class="btn btn-sm btn-link ps-0 btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></a> Project Dashboard</h2>
+                <ul class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Bconto</a></li>
+                    <li class="breadcrumb-item active">Dashboard</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-sm-12 text-md-end">
+                <div class="d-inline-flex text-start">
+                    <div class="me-2">
+                        <h6 class="mb-0"><i class="fa fa-user"></i> 1,784</h6>
+                        <small>Visitors</small>
+                    </div>
+                    <span id="bh_visitors"></span>
+                </div>
+                <div class="d-inline-flex text-start ms-lg-3 me-lg-3 ms-1 me-1">
+                    <div class="me-2">
+                        <h6 class="mb-0"><i class="fa fa-globe"></i> 325</h6>
+                        <small>Visits</small>
+                    </div>
+                    <span id="bh_visits"></span>
+                </div>
+                <div class="d-inline-flex text-start">
+                    <div class="me-2">
+                        <h6 class="mb-0"><i class="fa fa-comments"></i> 13</h6>
+                        <small>Chats</small>
+                    </div>
+                    <span id="bh_chats"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-2 row-deck mb-2">
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="card chart-color1">
+                <div class="card-body p-lg-4 text-light">
+                    <h3>19</h3>
+                    <span>Today Works</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="card chart-color2">
+                <div class="card-body p-lg-4 text-light">
+                    <h3>15</h3>
+                    <span>Today Tasks</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="card chart-color3">
+                <div class="card-body p-lg-4">
+                    <h3>125</h3>
+                    <span>Statistics</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+            <div class="card chart-color4">
+                <div class="card-body p-lg-4 text-light">
+                    <h3>318</h3>
+                    <span>Analytics</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h6 class="card-title">Wrok Report</h6>
+                    <ul class="header-dropdown">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <ul class="dropdown-menu dropstart list-unstyled">
+                                <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);">Another Action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);">Something else</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div id="wrok_report"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card">
+                <ul class="list-group list-group-custom list-group-flush list-group-custom">
+                    <li class="list-group-item">
+                        <a href="app-inbox.html" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-envelope text-muted me-2"></i>Inbox</p>
+                            <span class="badge bg-success">695</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:void(0);" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-eye text-muted me-2"></i>Profile visits</p>
+                            <span class="badge bg-info">364</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:void(0);" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-phone text-muted me-2"></i>Call</p>
+                            <span class="badge bg-warning">12</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:void(0);" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-comment-o text-muted me-2"></i>Messages</p>
+                            <span class="badge bg-danger">54</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:void(0);" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-bookmark text-muted me-2"></i>Bookmarks</p>
+                            <span class="badge bg-warning">19</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:void(0);" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-bell text-muted me-2"></i>Notifications</p>
+                            <span class="badge bg-info">56</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:void(0);" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-tag text-muted me-2"></i>New Project</p>
+                            <span class="badge bg-info">8</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:void(0);" class="d-flex justify-content-between align-items-center">
+                            <p class="mb-0"><i class="fa fa-clock-o text-muted me-2"></i>Watch</p>
+                            <span class="badge bg-info">25</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card">
+                <ul class="list-group list-group-custom list-group-flush list-group-custom">
+                    <li class="list-group-item d-flex align-items-center">
+                        <div class="icon me-3">
+                            <img src="./assets/images/xs/avatar1.jpg" class="rounded-circle" alt="">
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Maryam Amiri</h6>
+                            <div class="text-muted">Team Leader</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <div class="icon me-3">
+                            <img src="./assets/images/xs/avatar2.jpg" class="rounded-circle" alt="">
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Fidel Tonn</h6>
+                            <div class="text-muted">Angular Champ</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <div class="icon me-3">
+                            <img src="./assets/images/xs/avatar3.jpg" class="rounded-circle" alt="">
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Tim Hank</h6>
+                            <div class="text-muted">UI UX Desiger</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <div class="icon me-3">
+                            <img src="./assets/images/xs/avatar4.jpg" class="rounded-circle" alt="">
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Gary Camara</h6>
+                            <div class="text-muted">Sales Lead</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex align-items-center">
+                        <div class="icon me-3">
+                            <img src="./assets/images/xs/avatar5.jpg" class="rounded-circle" alt="">
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Tim Hank</h6>
+                            <div class="text-muted">UI UX Desiger</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h6 class="card-title">ToDo List</h6>
+                    <small>This Month task list</small>
+                </div>
+                <div class="card-body todo_list">
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="Report">
+                            <label class="form-check-label" for="Report"><i class="fa fa-calendar me-2"></i>Report Panel Usag</label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="logo"
+                                checked="">
+                            <label class="form-check-label" for="logo"><i class="fa fa-bell me-2"></i>New logo design</label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="PSD">
+                            <label class="form-check-label" for="PSD"><i class="fa fa-file me-2"></i>Design PSD files</label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="Deploy">
+                            <label class="form-check-label" for="Deploy"><i class="fa fa-file me-2"></i>Deploy existing code</label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="Panel" checked>
+                            <label class="form-check-label" for="Panel"><i class=" fa fa-calendar me-2"></i>Report Panel Usag</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h6 class="card-title">Project List</h6>
+                    <ul class="header-dropdown">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <ul class="dropdown-menu dropdown-menu-end dropstart list-unstyled">
+                                <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);">Another Action</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0);">Something else</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <table id="pro_list" class="table table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>Application</th>
+                                <th>Team</th>
+                                <th>Change</th>
+                                <th>Sales</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h6>Alpino 4.1</h6>
+                                    <span>WrapTheme To By Again</span>
+                                </td>
+                                <td>
+                                    <ul class="list-unstyled team-info mb-0 d-flex">
+                                        <li><img src="./assets/images/xs/avatar1.jpg" alt="Avatar"></li>
+                                        <li><img src="./assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                                        <li><img src="./assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div id="aplino"></div>
+                                </td>
+                                <td>11,200</td>
+                                <td>$83</td>
+                                <td><strong>$22,520</strong></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>Compass 2.0</h6>
+                                    <span>WrapTheme To By Again</span>
+                                </td>
+                                <td>
+                                    <ul class="list-unstyled team-info mb-0 d-flex">
+                                        <li><img src="./assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                                        <li><img src="./assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div id="compass"></div>
+                                </td>
+                                <td>11,200</td>
+                                <td>$66</td>
+                                <td><strong>$13,205</strong></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>Nexa 1.1</h6>
+                                    <span>WrapTheme To By Again</span>
+                                </td>
+                                <td>
+                                    <ul class="list-unstyled team-info mb-0 d-flex">
+                                        <li><img src="./assets/images/xs/avatar4.jpg" alt="Avatar"></li>
+                                        <li><img src="./assets/images/xs/avatar6.jpg" alt="Avatar"></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div id="nexa"></div>
+                                </td>
+                                <td>12,080</td>
+                                <td>$93</td>
+                                <td><strong>$17,700</strong></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6>Oreo 2.2</h6>
+                                    <span>ThemeMakker To By Again</span>
+                                </td>
+                                <td>
+                                    <ul class="list-unstyled team-info mb-0 d-flex">
+                                        <li><img src="./assets/images/xs/avatar1.jpg" alt="Avatar"></li>
+                                        <li><img src="./assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                                        <li><img src="./assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                                        <li><img src="./assets/images/xs/avatar9.jpg" alt="Avatar"></li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <div id="oreo"></div>
+                                </td>
+                                <td>18,200</td>
+                                <td>$178</td>
+                                <td><strong>$17,700</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="row g-2 row-deck">
+                <div class="col-lg-12 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h6 class="card-title">Income Analysis</h6>
+                            <small>8% High then last month</small>
+                        </div>
+                        <div class="card-body text-center">
+                            <div id="income_analysis"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h6 class="card-title">Sales Income</h6>
+                        </div>
+                        <div class="card-body">
+                            <h6>Overall <strong class="text-success">7,000</strong></h6>
+                            <div id="sales_income"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-2">
+        <div class="col-12 d-flex flex-wrap justify-content-between align-items-end">
+            <div class="mt-3">
+                <h5 class="mb-0">Lucid Team</h5>
+                <span class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h6 class="card-title">Web Development Team</h6>
+                </div>
+                <div class="card-body">
+                    <img class="rounded-circle img-thumbnail mx-auto d-block mb-2" src="./assets/images/sm/avatar5.jpg" alt="">
+                    <h6 class="text-primary mb-0">Susie Willis</h6>
+                    <span>Team Lead</span>
+                </div>
+                <div class="card-body pt-0">
+                    <span class="badge bg-secondary">ReactJs</span>
+                    <span class="badge bg-secondary">Angular</span>
+                    <span class="badge bg-secondary">VueJs</span>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled team-info mb-3 d-flex justify-content-center">
+                        <li><h6 class="mb-0 me-3">Employees:</h6></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar1.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar4.jpg" alt="Avatar"></li>
+                    </ul>
+                    <p class="mb-0 fs-6">1 Lead, 3 Employees</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h6 class="card-title">Marketing Team</h6>
+                </div>
+                <div class="card-body">
+                    <img class="rounded-circle img-thumbnail mx-auto d-block mb-2" src="./assets/images/sm/avatar3.jpg" alt="">
+                    <h6 class="text-primary mb-0">Debra Stewart</h6>
+                    <span>Team Lead</span>
+                </div>
+                <div class="card-body pt-0">
+                    <span class="badge bg-secondary">Social</span>
+                    <span class="badge bg-secondary">HTML/CSS</span>
+                    <span class="badge bg-secondary">Twitter</span>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled team-info mb-3 d-flex justify-content-center">
+                        <li><h6 class="mb-0 me-3">Employees:</h6></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar6.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar8.jpg" alt="Avatar"></li>
+                    </ul>
+                    <p class="mb-0 fs-6">1 Lead, 3 Employees</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h6 class="card-title">Sales Team</h6>
+                </div>
+                <div class="card-body">
+                    <img class="rounded-circle img-thumbnail mx-auto d-block mb-2" src="./assets/images/sm/avatar2.jpg" alt="">
+                    <h6 class="text-primary mb-0">Erin Gonzales</h6>
+                    <span>Team Lead</span>
+                </div>
+                <div class="card-body pt-0">
+                    <span class="badge bg-secondary">Photoshop</span>
+                    <span class="badge bg-secondary">HTML/CSS</span>
+                    <span class="badge bg-secondary">Javascript</span>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled team-info mb-3 d-flex justify-content-center">
+                        <li><h6 class="mb-0 me-3">Employees:</h6></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar4.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar1.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar6.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                    </ul>
+                    <p class="mb-0 fs-6">1 Lead, 3 Employees</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h6 class="card-title">Web Designing Team</h6>
+                </div>
+                <div class="card-body">
+                    <img class="rounded-circle img-thumbnail mx-auto d-block mb-2" src="./assets/images/sm/avatar1.jpg" alt="">
+                    <h6 class="text-primary mb-0">Marshall Nichols</h6>
+                    <span>Team Lead</span>
+                </div>
+                <div class="card-body pt-0">
+                    <span class="badge bg-secondary">Photoshop</span>
+                    <span class="badge bg-secondary">HTML/CSS</span>
+                    <span class="badge bg-secondary">Javascript</span>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled team-info mb-3 d-flex justify-content-center">
+                        <li><h6 class="mb-0 me-3">Employees:</h6></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar1.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                        <li><img class="rounded-circle avatar sm" src="./assets/images/xs/avatar4.jpg" alt="Avatar"></li>
+                    </ul>
+                    <p class="mb-0 fs-6">1 Lead, 3 Employees</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

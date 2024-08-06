@@ -1,0 +1,6 @@
+@solarpay_core_HostAddress = http://localhost:5017
+
+GET {{solarpay_core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

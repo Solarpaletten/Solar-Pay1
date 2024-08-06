@@ -1,0 +1,89 @@
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.sourcelink.json
+C:\Users\RFID Saudi\source\RFIDPortals\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\RFID Saudi\source\RFIDPortals\Business\bin\Debug\net8.0\Business.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Business\bin\Debug\net8.0\Data.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Business\bin\Debug\net8.0\DataAccess.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Business\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Business\bin\Debug\net8.0\Data.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\RFID Saudi\source\RFIDPortals\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\bin\Debug\net8.0\Business.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\bin\Debug\net8.0\Data.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\bin\Debug\net8.0\DataAccess.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\bin\Debug\net8.0\Data.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.sourcelink.json
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\RFIDSAUDI\source\RFIDPortals\Business\obj\Debug\net8.0\ref\Business.dll
+D:\Development\Freelancing\RFIDPortals\Business\bin\Debug\net8.0\Business.deps.json
+D:\Development\Freelancing\RFIDPortals\Business\bin\Debug\net8.0\Business.dll
+D:\Development\Freelancing\RFIDPortals\Business\bin\Debug\net8.0\Business.pdb
+D:\Development\Freelancing\RFIDPortals\Business\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\RFIDPortals\Business\bin\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\RFIDPortals\Business\bin\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\RFIDPortals\Business\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.sourcelink.json
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.dll
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\refint\Business.dll
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\Business.pdb
+D:\Development\Freelancing\RFIDPortals\Business\obj\Debug\net8.0\ref\Business.dll
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.dll
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\refint\Business.dll
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.pdb
+D:\Development\Freelancing\SolarPay\Business\bin\Debug\net8.0\Business.deps.json
+D:\Development\Freelancing\SolarPay\Business\bin\Debug\net8.0\Business.dll
+D:\Development\Freelancing\SolarPay\Business\bin\Debug\net8.0\Business.pdb
+D:\Development\Freelancing\SolarPay\Business\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\Business\bin\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\SolarPay\Business\bin\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\SolarPay\Business\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\Development\Freelancing\SolarPay\Business\obj\Debug\net8.0\ref\Business.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\bin\Debug\net8.0\Business.deps.json
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\bin\Debug\net8.0\Business.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\bin\Debug\net8.0\Business.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\bin\Debug\net8.0\Data.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\bin\Debug\net8.0\DataAccess.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\bin\Debug\net8.0\DataAccess.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\bin\Debug\net8.0\Data.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.sourcelink.json
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\refint\Business.dll
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\Business.pdb
+D:\Development\Freelancing\SolarPay\Solar-Pay\Business\obj\Debug\net8.0\ref\Business.dll
