@@ -4391,11 +4391,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj",
+      "projectUniqueName": "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj",
       "projectName": "Data",
-      "projectPath": "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj",
+      "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj",
       "packagesPath": "/Users/asset/.nuget/packages/",
-      "outputPath": "/Users/asset/Documents/solar/Solar-Pay/Data/obj/",
+      "outputPath": "/Users/asset/Documents/GIT/Solar-Pay/Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/asset/.nuget/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj": {}
+    "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj": {}
   },
   "projects": {
-    "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj": {
+    "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj",
+        "projectUniqueName": "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj",
+        "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj",
         "packagesPath": "/Users/asset/.nuget/packages/",
-        "outputPath": "/Users/asset/Documents/solar/Solar-Pay/Data/obj/",
+        "outputPath": "/Users/asset/Documents/GIT/Solar-Pay/Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/asset/.nuget/NuGet/NuGet.Config"
@@ -100,14 +100,14 @@
         }
       }
     },
-    "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj": {
+    "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj",
+        "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj",
         "packagesPath": "/Users/asset/.nuget/packages/",
-        "outputPath": "/Users/asset/Documents/solar/Solar-Pay/DataAccess/obj/",
+        "outputPath": "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/asset/.nuget/NuGet/NuGet.Config"
@@ -122,8 +122,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj": {
-                "projectPath": "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj"
+              "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj": {
+                "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj"
               }
             }
           }

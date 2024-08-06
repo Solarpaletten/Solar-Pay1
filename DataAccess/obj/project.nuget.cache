@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cv86qsdT2TY=",
+  "dgSpecHash": "2YrJ6HiAm5A=",
   "success": true,
-  "projectFilePath": "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj",
+  "projectFilePath": "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/asset/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/asset/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

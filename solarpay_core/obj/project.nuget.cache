@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b3RUdFO5tXI=",
+  "dgSpecHash": "hucy46dUpfA=",
   "success": true,
-  "projectFilePath": "/Users/asset/Documents/solar/Solar-Pay/solarpay_core/solarpay_core.csproj",
+  "projectFilePath": "/Users/asset/Documents/GIT/Solar-Pay/solarpay_core/solarpay_core.csproj",
   "expectedPackageFiles": [
     "/Users/asset/.nuget/packages/aspnetcore.reporting/2.1.0/aspnetcore.reporting.2.1.0.nupkg.sha512",
     "/Users/asset/.nuget/packages/aspnetcore.reportingservices/2.1.0/aspnetcore.reportingservices.2.1.0.nupkg.sha512",

@@ -10979,11 +10979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/asset/Documents/solar/Solar-Pay/solarpay_core/solarpay_core.csproj",
+      "projectUniqueName": "/Users/asset/Documents/GIT/Solar-Pay/solarpay_core/solarpay_core.csproj",
       "projectName": "solarpay_core",
-      "projectPath": "/Users/asset/Documents/solar/Solar-Pay/solarpay_core/solarpay_core.csproj",
+      "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/solarpay_core/solarpay_core.csproj",
       "packagesPath": "/Users/asset/.nuget/packages/",
-      "outputPath": "/Users/asset/Documents/solar/Solar-Pay/solarpay_core/obj/",
+      "outputPath": "/Users/asset/Documents/GIT/Solar-Pay/solarpay_core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/asset/.nuget/NuGet/NuGet.Config"
@@ -10998,14 +10998,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/asset/Documents/solar/Solar-Pay/Business/Business.csproj": {
-              "projectPath": "/Users/asset/Documents/solar/Solar-Pay/Business/Business.csproj"
+            "/Users/asset/Documents/GIT/Solar-Pay/Business/Business.csproj": {
+              "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/Business/Business.csproj"
             },
-            "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj": {
-              "projectPath": "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj"
+            "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj": {
+              "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj"
             },
-            "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj": {
-              "projectPath": "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj"
+            "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj"
             }
           }
         }

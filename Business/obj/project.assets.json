@@ -5407,11 +5407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/asset/Documents/solar/Solar-Pay/Business/Business.csproj",
+      "projectUniqueName": "/Users/asset/Documents/GIT/Solar-Pay/Business/Business.csproj",
       "projectName": "Business",
-      "projectPath": "/Users/asset/Documents/solar/Solar-Pay/Business/Business.csproj",
+      "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/Business/Business.csproj",
       "packagesPath": "/Users/asset/.nuget/packages/",
-      "outputPath": "/Users/asset/Documents/solar/Solar-Pay/Business/obj/",
+      "outputPath": "/Users/asset/Documents/GIT/Solar-Pay/Business/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/asset/.nuget/NuGet/NuGet.Config"
@@ -5426,11 +5426,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj": {
-              "projectPath": "/Users/asset/Documents/solar/Solar-Pay/Data/Data.csproj"
+            "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj": {
+              "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/Data/Data.csproj"
             },
-            "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj": {
-              "projectPath": "/Users/asset/Documents/solar/Solar-Pay/DataAccess/DataAccess.csproj"
+            "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/asset/Documents/GIT/Solar-Pay/DataAccess/DataAccess.csproj"
             }
           }
         }
