@@ -22,7 +22,7 @@ RUN mkdir /keys
 RUN dotnet restore "solarpay_core/solarpay_core.csproj"
 
 COPY . .
-WORKDIR "/src/solarpay_core"
+WORKDIR "/SRC/solarpay_core"
 
 RUN dotnet build "solarpay_core.csproj" -c Release -o /app/build
 RUN dotnet publish "solarpay_core.csproj" -c Release -o /app/publish /p:UseAppHost=false
